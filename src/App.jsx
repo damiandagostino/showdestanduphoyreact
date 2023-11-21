@@ -1,18 +1,14 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
-import '/src/index.css'
-import CartWidgetComponent from './components/CartWidgetComponent/CartWidgetComponent';
-import NavBarComponent from './components/NavbarComponent/NavBarComponent';
-import ItemListContainer from './components/ItemListConteiner/ItemListConteiner';
+import { MainRoutes } from "./router/MainRouter";
 
-function App() {
-  return(
+const App = () => {
+  return (
     <div>
-    <NavBarComponent/>
-    <ItemListContainer greeting="Bienvenidos a Show de Stand Up Hoy"/>
+      <MainRoutes />
     </div>
   );
-}
+};
 
-export default App
+export default App;

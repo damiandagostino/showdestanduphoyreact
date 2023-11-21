@@ -1,13 +1,14 @@
 const CartWidgetComponent = () => {
     const iconStyle = {
-        padding: '10px',
-        color: '#fafafa'
+        padding: '5px',
+        color: '#fafafa',
+        fontSize: '1.3rem',
     }
 
     return(
         <div>
             <i className="bi bi-cart4"style={iconStyle}></i>
-            <span>10</span>
+            <span>1</span>
         </div>
     )
 }
