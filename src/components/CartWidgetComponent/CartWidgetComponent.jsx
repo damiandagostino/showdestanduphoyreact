@@ -8,7 +8,7 @@ const CartWidgetComponent = () => {
     return(
         <div>
             <i className="bi bi-cart4"style={iconStyle}></i>
-            <span>1</span>
+            <span>15</span>
         </div>
     )
 }

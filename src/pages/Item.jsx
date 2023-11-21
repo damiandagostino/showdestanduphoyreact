@@ -7,9 +7,8 @@ export const Item = () => {
     const { id } = useParams();
 
     const productFiltered = ProductsData.filter(
-        (product) => product.id === parseInt(id)
+        (product) => product.id === id
     );
-    console.log(productFiltered);
     return <ItemDetailContainer product={productFiltered[0]} />;
 };
 

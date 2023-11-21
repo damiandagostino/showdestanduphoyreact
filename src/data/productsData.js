@@ -11,7 +11,7 @@ export const ProductsData = [
     {
         id: "Show-2",
         name: "After Wakanda",
-        image: "../src/assets/img/afterwakanda.jpg",
+        image: "../../src/assets/img/afterwakanda.jpg",
         price: 1500,
         description: "Cuando queres seguirla un rato mas nostoros te hacemos el agunte. Venite!",
         cantidad: 1,
@@ -20,7 +20,7 @@ export const ProductsData = [
     {
         id: "Show-3",
         name: "Cosas de Cabrito",
-        image: "../src/assets/img/cosasdecabrito.jpg",        
+        image: "../../src/assets/img/cosasdecabrito.jpg",        
         price: 1800,
         description: "Meee, gusta reir, meee, gusta aplaudir, teeenes que venir!",
         cantidad: 1,
@@ -29,7 +29,7 @@ export const ProductsData = [
     {
         id: "Show-4",
         name: "El Kaputt",
-        image: "../src/assets/img/elotrostandupkaputt.jpeg",        
+        image: "../../src/assets/img/elotrostandupkaputt.jpeg",        
         price: 1600,
         description: "El kaputt es un desafio para los comediantes, tienen 4 min para hacerte reir, si no lo logran KAPUTT!! ",
         cantidad: 1,
@@ -38,7 +38,7 @@ export const ProductsData = [
     {
         id: "Show-5",
         name: "Otra Orbita",
-        image: "../src/assets/img/otraorbita.jpeg",        
+        image: "../../src/assets/img/otraorbita.jpeg",        
         price: 2500,
         description: "Dos comediantes suben, solo uno sobrevive. Veni a elegir al ganador",
         cantidad: 1,
