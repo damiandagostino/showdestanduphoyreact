@@ -1,6 +1,6 @@
 import { helix } from "ldrs";
 
-const LoaderComponent = () => {
+export const LoaderComponent = () => {
   helix.register();
   return (
     <div
@@ -17,4 +17,3 @@ const LoaderComponent = () => {
   );
 };
 
-export default LoaderComponent;

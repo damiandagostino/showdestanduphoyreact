@@ -1,4 +1,11 @@
+import { useContext } from "react";
+import { CartContext } from "../../context/CartContext";
+
+
 const CartWidgetComponent = () => {
+
+    const {qtyItems} = useContext(CartContext);
+
     const iconStyle = {
         padding: '5px',
         color: '#fafafa',
@@ -8,7 +15,7 @@ const CartWidgetComponent = () => {
     return(
         <div>
             <i className="bi bi-cart4"style={iconStyle}></i>
-            <span>15</span>
+            <span>{qtyItems}</span>
         </div>
     )
 }
