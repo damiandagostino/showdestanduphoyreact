@@ -3,7 +3,7 @@ import { LoaderComponent } from "../components";
 import { useParams } from "react-router-dom";
 import { ProductsData } from "../data/productsData";
 import { useEffect, useState } from "react";
-
+import { getProductsbyCategory } from "../data/productsData";
 
 export const Category = () => {
     const [filteredProducts, setFilteredProducts] = useState([]);
@@ -13,7 +13,7 @@ export const Category = () => {
         LoaderComponent(true);
         getProductsbyCategory(categoryId)
         .then((Category) =>{
-            setProduct(Category);
+            setFilteredProducts(Category);
         })
         .catch((err) =>{
             console.log(err);

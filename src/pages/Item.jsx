@@ -4,6 +4,7 @@ import { LoaderComponent } from "../components";
 import { useParams } from "react-router-dom";
 import { ProductsData } from "../data/productsData";
 import { useEffect, useState } from "react";
+import { getProduct } from "../data/productsData";
 
 
 export const Item = () => {

@@ -46,26 +46,26 @@ export const ProductsData = [
     },
 ];
 
-export const getProducts =(id) => {
+export const getProducts =() => {
     return new Promise((res, rej) =>{
         setTimeout(()=>{
-        res(products);
+        res(ProductsData);
     },1000);
     });
 };
 export const getProductsbyCategory = (category) => {
     return new Promise((res)=>{
-        const productos = products.filter(
+        const productos = ProductsData.filter(
             (products)=> products.category === category
         );
-        serTimeout(()=>{
+        setTimeout(()=>{
             res(productos);
         },1000);
     });
 };
-export const getProduct = () => {
+export const getProduct = (id) => {
     return new Promise((resolve) => {
-        const productoFiltrado = products.find((p) => p.id === id);
+        const productoFiltrado = ProductsData.find((p) => p.id === id);
         setTimeout(()=> {
             resolve(productoFiltrado);
         },1000);
