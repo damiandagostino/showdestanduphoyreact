@@ -1,18 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "../pages";
-import { Category } from "../pages";
-import { Item } from "../pages";
+import { Home } from "../pages/Home";
 import { NavBarComponent } from "../components";
+import { ItemDetailContainer } from "../pages";
+import Category from "../pages/Category";
 
-export const MainRoutes = () => {
+export const MainRouter = () => {
     return (
         <BrowserRouter>
             <NavBarComponent />
             <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/category/:categoryId' element={<Category />} />
-                <Route path="/item/:id" element={<Item />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/item/:productId" element={<ItemDetailContainer />} />
+                <Route path="/category/:categoryId" element={<Category />} />
             </Routes>
         </BrowserRouter>
     );
-}
+};

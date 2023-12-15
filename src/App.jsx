@@ -1,16 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 
-import { MainRoutes } from "./router/MainRouter";
-import { CartProvider } from "./context/CartContext";
+import { MainRouter } from "./router/MainRouter";
+import { CartProvider } from "./context";
 
 const App = () => {
   return (
-    <CartProvider>
-      <div>
-        <MainRoutes />
-      </div>
-    </CartProvider>
+    <div>
+      <CartProvider>
+        <MainRouter />
+      </CartProvider>
+    </div>
   );
 };
 

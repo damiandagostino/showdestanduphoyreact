@@ -1,8 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Show de Stand Up Hoy
 
-Currently, two official plugins are available:
+Pretende ser una tienda donde se concentre toda la oferta de shows de stand up disponibles en el gran buenos aires. Donde puedas interiorisarte en los tipos de shows existentes, conocerlos y conseguir entradas o hacer tus reservas a los mismos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run dev
+```
+
+
+
+
+
+## Tech Stack
+
+**Client:** React, Firebase, CSS, HTML
+
+**Server:** Node, Express
